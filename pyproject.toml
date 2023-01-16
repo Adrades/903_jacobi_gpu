@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jacobi"
+version = "0.1.0"
+description = "Multi-GPU optimization of jacobi algorithms with multiples libs"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter-c-kernel = "^1.2.2"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
